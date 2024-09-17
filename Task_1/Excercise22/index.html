@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Example 22</title>
+</head>
+
+<body>
+    <main class="common">
+        <header>
+            <h2>Array Filter Sort Map</h2>
+        </header>
+
+        <div class="content">
+            <label for="divisionFilter">Filter by Division:</label>
+            <select id="divisionFilter">
+                <option value="">All</option>
+                <option value="Science">Science</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Arts">Arts</option>
+            </select>
+            <button onclick="applyFilterAndSort('rank')">Sort by Rank</button>
+            <button onclick="applyFilterAndSort('city')">Sort by City</button>
+            <table id="studentTable" border="4">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Rank</th>
+                        <th>Division</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </main>
+
+</body>
+
+</html>

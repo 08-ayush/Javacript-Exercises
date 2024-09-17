@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+header:hover {
+    background-color: darkorange; /* Change background color on hover */
+    transform: scale(1.08); /* Slightly enlarge the header on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+}
+
+
+a {
+    font-style: inherit;
+    color: dark;
+    text-decoration: none;
+}
+
+.common {
+    width: 900px;
+    margin: auto;
+    max-width: 900px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+}
+
+.content {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 65px;
+    margin-top: 65px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px; /* Space between label and input */
+    width: 150px; /* Fixed width for labels */
+}
+
+input {
+    padding: 5px;
+    font-size: large;
+    flex:0.5; 
+    max-width: 400px; 
+    min-width: 150px;
+}
+.truthy{
+  margin: 15px;
+  text-align: left;
+  
+}
+table,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+table {
+  margin-top: 20px;
+}
